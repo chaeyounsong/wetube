@@ -6,9 +6,15 @@
   "author": "Chaeyoun",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/node": "^7.6.3",
     "express": "^4.17.1"
   },
-  "scripts":{
-    "start": "node index.js" 
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.3"
   }
 }
