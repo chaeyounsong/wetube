@@ -1,2 +1,2 @@
 # wetube
- cloning the wetube with vanilla javascript
+ cloning the youtube with vanilla javascript
