@@ -31,9 +31,6 @@ export const logout = (req,res) => {
     res.redirect(routes.home);
 }
 
-
-
-
 export const changePassword = (req,res) => res.render('changePassword', { pageTitle: "Change Password"});
 export const editProfile = (req,res) => res.render('editProfile', { pageTitle: "Edit Profile"});
 export const userDetail = (req,res) => res.render('userDetail', { pageTitle: "User Detail"});
