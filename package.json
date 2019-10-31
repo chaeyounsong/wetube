@@ -37,7 +37,7 @@
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "dev:server": "babel-node init.js --delay 2",
+    "dev:server": "nodemon --exec babel-node init.js --delay 2",
     "dev:assets": "cross-env WEBPACK_ENV=development webpack -w",
     "build:assets": "cross-env WEBPACK_ENV=production webpack"
   },
@@ -46,5 +46,8 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
