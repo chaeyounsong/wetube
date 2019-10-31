@@ -12,3 +12,7 @@
 - [ ] Upload
 - [ ] Video Detail
 - [ ] Edit Video
+
+/* package.json
+nodemon --exec 
+*/

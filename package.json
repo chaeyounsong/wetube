@@ -8,6 +8,7 @@
   "dependencies": {
     "@babel/core": "^7.6.3",
     "@babel/node": "^7.6.3",
+    "@babel/polyfill": "^7.6.0",
     "@babel/preset-env": "^7.6.3",
     "autoprefixer": "^9.7.0",
     "babel-loader": "^8.0.6",
@@ -36,7 +37,7 @@
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "dev:server": "nodemon --exec babel-node init.js --delay 2",
+    "dev:server": "babel-node init.js --delay 2",
     "dev:assets": "cross-env WEBPACK_ENV=development webpack -w",
     "build:assets": "cross-env WEBPACK_ENV=production webpack"
   },
