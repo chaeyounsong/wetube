@@ -191,6 +191,10 @@ button.delete {
 button.password {
   padding: 10px; }
 
+button,
+input[type="submit"] {
+  cursor: pointer; }
+
 .header {
   width: 100%;
   background-color: #ea232c;
@@ -203,9 +207,10 @@ button.password {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center; }
-    .header .header__wrapper .header__column i {
-      color: white;
-      font-size: 30px; }
+    .header .header__wrapper .header__column i, .header .header__wrapper .header__column span {
+      color: #ffffff;
+      font-size: 25px;
+      margin-right: 10px; }
     .header .header__wrapper .header__column:nth-child(2) {
       width: 100%;
       justify-content: center; }
@@ -362,3 +367,6 @@ button.password {
   .home-videos .videoBlock:nth-child(4),
   .home-videos .videoBlock:nth-child(5) {
     grid-column: span 2; }
+
+.home-videos video {
+  width: 850px; }

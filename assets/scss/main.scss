@@ -52,3 +52,8 @@ button.delete{
 button.password{
   padding: 10px;
 }
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
